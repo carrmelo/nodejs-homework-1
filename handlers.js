@@ -5,7 +5,7 @@ const handlers = module.exports = {};
 // Hello handler
 handlers.hello = function(data, callback) {
   // Callback a http status code with the hello message
-  callback(200, { message: 'Start your engines and may the best woman wins' });
+  callback(200, { message: 'Start your engines and may the best woman win' });
 };
 
 // Not found handler
